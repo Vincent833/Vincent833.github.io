@@ -1,4 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html lang="fr">
     <head>
         <!-- Required meta tags -->
@@ -35,7 +40,7 @@
                             <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
-                            <link href="cv.css" rel="stylesheet">
+                            <link href="../css/cv.css" rel="stylesheet">
                         </li> 
                         <li class="dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link"
@@ -114,69 +119,48 @@
                     </ul>
                 </div>
             </div>
-        </nav> 
-        <div class="jumbotron">
-            <button type="button" class="navbar-toggler" data-toggle="collapse"
-                    data-target="#navbar" aria-controls="navbar">
-                <span class="sr-only">En savoir plus</span>☰
-            </button>
-            <h1> Bonjour et bienvenu sur mon portfolio </h1><!-- comment -->
-            <img src="AmeliaPilou.jpg" alt="" />
-            <p>Je m'appelle Vincent MISTRAL, j'ai 18 ans et ce site a pour vocation de me présenter en tant que personne, en tant qu'étudiant et candidat à l'obtention du BTS SIO (Services Informatiques aux Organisations) et en tant que future professionnelle de l'informatique.
-            <p><a class="btn btn-secondary" href="cv.html" target="_blank"
-                  role="button">En savoir plus »</a>
-            </p>
-        </div> <!-- Emplacement pour le contenu principal de la page -->
-        <footer>
+        </nav>  
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Programmation sous Android</h1>
+                <p class="lead text-muted">Cette activité m'a permis de développer une
+                    application Android avec différents modes de persistances (locales et
+                    distantes) et m'a appris à gérer les adapters. J'ai également pu connaître
+                    le mode de déploiement d'une application Android.
+                </p>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <h2>Étudiant au lycée Bonaparte</h2>
-                        <p>J'ai choisi de rejoindre le lycée Bonapartele pour pouvoir intégrer le BTS SIO 
-                            car je voulais en apprendre plus en informatique ainsi que développer mes compétences.
-                            J'ai un très bonne emploi du temps, on apprend à être autonome.
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.cned.fr" target="_blank"
-                              role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="ihmcoach.png" alt="IHM Coach">
+                            <div class="card-body">
+                                <p class="card-text">Construction de l'interface graphique</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h2>Le BTS SIO</h2>
-                        <p>Passionné d'informatique depuis mon plus jeune âge, j'aime apprendre à faire
-                            de nouvelles choses avec mon ordinateur, mon smartphone ou ma tablette. Une
-                            Geek ? Oui assurément ! Mais j'aimerais maintenant passer au niveau au-dessus
-                            et devenir une vraie Nerd, dans le bon sens du terme ! Après mon bac, le BTS
-                            SIO s'est présenté comme une évidence. Avec 62% d'Informatique "pure", 15%
-                            d'Économie, management et droit de l'informatique, 8% d'Anglais, 8% de culture
-                            générale et 7% de Maths, je savais que cette formation allait me mettre le
-                            pied à l'étrier pour poursuivre ensuite dans cette voie et devenir
-                            informaticienne !
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_tec
-                              hnicien_supérieur_-_Services_informatiques_aux_organisations"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="MVC.png"
+                                 alt="Structuration MVC">
+                            <div class="card-body">
+                                <p class="card-text">Stucturation de l'application en MVC</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h2>Option A SISR</h2>
-                        <p>En fin de premier semestre, on doit choisir notre option. "Solutions
-                            d'infrastructures, systèmes et réseaux" est l'option qui m'a séduit&nbsp;!
-                            Travailler en équipe à la satisfaction de besoins d'un client, définir des
-                            spécifications, faire des tests, optimiser le réseau, faire de la maintenance...
-                            tout en apprenant les bases du métier d'administrateur réseaux : Mettre en place les normes de sécurité, Assurer la bonne gestion des droits d'accès, pour les machines d'une part, et pour les utilisateurs d'autre part, mettre en place des tableaux de bord de suivi des performances et de qualité réseau(pannes, flux, disponibilité des ressources, sécurité, etc.)...
-                            J'étais sûre que ça serait fait pour moi !
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.onisep.fr/Ressources/Univers-For
-                              mation/Formations/Post-bac/BTS-Services-informatiques-aux-organisations-opt
-                              ion-B-solutions-logicielles-et-applications-metiers" target="_blank"
-                              role="button">En savoir plus »</a>
-                        </p>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="adapters.png" alt="Adapters">
+                            <div class="card-body">
+                                <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <hr>
-                <p class="text-center" id="copyright">© Vincent Mistral 2021</p>
             </div>
-        </footer>  
+        </div> 
 
 
 
